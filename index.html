@@ -7,8 +7,33 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <a href="./guia_1/pagina1.html">Next</a><br />
-    <a href="./guia_2/pagina2.html">Next</a><br />
-    <a href="./guia_2/pagina2.html">Next</a><br />
+    <a href="./guia_1/pagina1.html">Guia-1</a><br />
+    <a href="./guia_2/guia2.html">Guia_2</a><br />
+    <a href="./guia_3/guia3.html">Guia_3</a><br />
+
+    <form action="" method="post">
+      <fieldset>
+        <legend>Rellena tu CV</legend>
+        <label for="nombre">Nombre</label><br />
+        <input type="text" id="nombre" maxlength="80" /><br />
+        <label for="apellido">Apellidos</label><br />
+        <input type="text" id="apellido" size="35" /><br />
+        <label for="contraseña">Contraseña</label><br />
+        <input type="password" id="contraseña" /><br />
+        <label for="dni">DNI</label><br />
+        <input type="text" id="dni" /><br />
+        <p>Sexo:</p>
+        <input type="radio" id="hombre" name="genero" />
+        <label for="hombre">Hombre</label><br />
+        <input type="radio" id="mujer" name="genero" />
+        <label for="mujer">Mujer</label><br />
+        <label for="file">Incluir mi foto</label>
+        <input type="file" id="file" /><br />
+        <input type="checkbox" id="sus" />
+        <label for="sus">Suscribirme al boletin de novedades</label><br />
+        <input type="submit" value="Guardar cambios" name="" />
+        <input type="reset" value="Borrar los datos introducidos" />
+      </fieldset>
+    </form>
   </body>
 </html>
